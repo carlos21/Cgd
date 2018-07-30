@@ -5,7 +5,7 @@ module Cgdlinux [system] {
 }
 
 module Cgdmac [system] {
-    header "usr/local/include/gd.h"
+    header "/usr/local/include/gd.h"
     link "gd"
     export *
 }
